@@ -1,0 +1,31 @@
+body, html {
+   margin: 0;
+   padding: 0;
+   height: 100%;
+   font-family: sans-serif; 
+}
+
+/* Header and footer styles */
+header, footer {
+   text-align: center;
+   background-color: #ffffff;
+}
+
+/* Map container adjustments */
+#map-container {
+   position: absolute;
+   top: 80px; /* Adjusted for header height */
+   bottom: 0px; /* Adjusted for footer height */
+   width: 100%;
+}
+
+/* Additional text styling */
+header h1 {
+   color: #333;
+   font-size: 24px;
+}
+
+header p, footer p {
+   color: #666;
+   font-size: 16px;
+}
